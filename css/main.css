@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #fca074;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+}
+
+img {
+  width: 100%;
+}
+
+#erro {
+  color: red;
+}
+
+.error {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 900px;
+}
+.section .article {
+  background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 245, 245) 35%);
+  padding: 40px;
+}
+.section .article .logo {
+  width: 40%;
+}
+.section .article .logo-mobile {
+  display: none;
+}
+.section .article .information {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 50px;
+}
+.section .article .information .text {
+  font-size: 3.5vw;
+  letter-spacing: 20px;
+}
+.section .article .information .text span {
+  color: #ce9797;
+}
+.section .article .information p {
+  color: #ce9797;
+  line-height: 30px;
+  font-size: 1.1vw;
+}
+.section .article .form {
+  margin-top: 50px;
+  display: flex;
+}
+.section .article .form .input-email {
+  width: 70%;
+}
+.section .article .form .input-email input {
+  width: 100%;
+  padding: 5%;
+  border: 1px solid #ab9898;
+  border-right: none;
+  border-radius: 50px 0 0 50px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.section .article .form .input-email .inputError {
+  border: 1px solid red;
+}
+.section .article .form button {
+  width: 15%;
+  background-color: #f96262;
+  border: none;
+  border-radius: 0 50px 50px 0;
+}
+.section .article .form button img {
+  width: 20%;
+}
+.section .article .form button:hover {
+  background-color: linear-gradient(90deg, rgb(248, 191, 191) 0%, rgb(238, 140, 140) 35%);
+  box-shadow: 0 0 5px #413a3a;
+}
+.section .div {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .section {
+    display: flex;
+  }
+  .section .article {
+    padding: 5% 0;
+  }
+  .section .article .logo-mobile {
+    margin-top: 50px;
+    display: block;
+  }
+  .section .article .information {
+    text-align: center;
+  }
+  .section .article .information .text {
+    font-size: 7vw;
+  }
+  .section .article .information p {
+    font-size: 3vw;
+  }
+  .section .article .form {
+    justify-content: center;
+  }
+  .section .div {
+    display: none;
+  }
+  .section .error {
+    margin-left: 40px;
+  }
+}/*# sourceMappingURL=main.css.map */

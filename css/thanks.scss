@@ -1,0 +1,17 @@
+@import 'variables';
+@import 'base';
+
+.section {   
+
+    padding: 10%;
+    
+    .text {
+
+        font-size: 3.5vw;
+        letter-spacing: 20px;
+
+        span {
+            color: #df3838;
+        }
+    }
+}
