@@ -35,8 +35,8 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- URL da solução: [Adicione o URL da solução aqui](https://your-solution-url.com)
-- URL do site ao vivo: [Adicione o URL do site ao vivo aqui](https://your-live-site-url.com)
+- URL da solução: [https://github.com/esdrasspessoa/pagina-cadastro-de-email](https://github.com/esdrasspessoa/pagina-cadastro-de-email)
+- URL do site ao vivo: [https://esdrasspessoa.github.io/htmlCss/cadastroDeEmail/](https://esdrasspessoa.github.io/htmlCss/cadastroDeEmail/)
 
 ## Meu processo
 
